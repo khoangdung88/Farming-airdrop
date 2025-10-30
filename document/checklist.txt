@@ -1,0 +1,23 @@
+Item/Protocol/Chain,Automation Potential Score,Lý do Điểm & Khó khăn Chính,Xếp Hạng (Dễ đến Khó)
+Meson Finance (meson.fi),9,"Form đơn giản, không cần wallet connect rõ ràng; chỉ cần HTTP request; rủi ro nếu hidden checks.",1 (Dễ nhất)
+Aleo (aleo.org faucet),8,"Form cơ bản, không captcha/API; rủi ro nếu có rate limit hoặc UI thay đổi.",2
+BNB Testnet (bnbchain.org),7,"Claim qua Discord hoặc form đơn giản; không API, nhưng dễ script UI nếu không có barriers.",3
+Rhino Finance (app.rhino.fi),6,"Bridge UI, cần selenium cho JS/wallet connect; không API, nhưng tx có thể automate.",4
+Scroll (quicknode.com),5,"Yêu cầu tweet + wallet connect, JS required; rate limit 12h làm phức tạp.",5
+Arbitrum (quicknode.com),5,"Tương tự Scroll: wallet connect + min balance, no API, rate limit 12h.",6
+Base (quicknode.com),5,"Tương tự Scroll/Arbitrum: tweet + wallet connect, rate limit.",7
+Blast (quicknode.com),5,"Wallet connect + no API, rate limit 12h; cần UI script phức tạp.",8
+ETH Sepolia (sepoliafaucet.com),4,"Tweet + share, wallet connect, JS required, queue 3h; rate limit strict.",9
+Polygon Mumbai (mumbaifaucet.com),4,"JS required, wallet connect, min balance; Mumbai deprecated gây lỗi script.",10
+Solana (quicknode.com),4,"Wallet connect (Phantom), min 0.05 SOL, no API, rate limit 12h.",11
+Metis (metis.io),4,"Tweet + wallet connect, min balance, rate limit 12h.",12
+OP Optimism (app.optimism.io),4,"Wallet connect, no API, potential hidden limits.",13
+Orbiter Finance (orbiter.finance),3,"Multi-step UI, wallet connect, no API, potential anti-bot.",14
+BTC Testnet (bitcoinfaucet.one),2,"Không có form claim, IP tracking, no API; gần như không automate.",15
+Linea (linea.build faucet),1,"Trang không load, không phân tích được; giả sử wallet/policy checks.",16 (Khó nhất)
+Owlto Finance (owlto.finance),1,"Trang không load, không dữ liệu; không thể script.",17
+Synapse Protocol (synapseprotocol.com),1,"Trang không load, bridge complex; không dữ liệu.",18
+Bungee Exchange (bungee.exchange),1,"Trang không load, undocumented API; không phân tích.",19
+Berachain (berachain.com),1,"Trang không load, không dữ liệu; tiềm năng wallet connect.",20
+Avalanche (tokentool.bitbond.com),1,"Trang không load, không dữ liệu; không script được.",21
+Polygon zkEVM (faucet.polygon.technology),1,"Trang không load, không dữ liệu; tiềm năng JS/wallet checks.",22

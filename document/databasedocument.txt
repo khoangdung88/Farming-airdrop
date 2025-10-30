@@ -1,0 +1,109 @@
+📌 Giải thích mối quan hệ chính:
+🔵 USERS (Trung tâm)
+
+Quản lý nhiều WALLETS (1-nhiều)
+Quản lý nhiều PROXIES (1-nhiều)
+Tạo nhiều FARMING_SESSIONS (1-nhiều)
+Nhận nhiều NOTIFICATIONS (1-nhiều)
+
+🟢 PROJECTS (Dự án Airdrop)
+
+Chứa nhiều TASKS (1-nhiều)
+Được tracking bởi WALLET_STATS (1-nhiều)
+Liên quan đến TRANSACTIONS (1-nhiều)
+Target của FARMING_SESSIONS (1-nhiều)
+
+🟡 WALLETS (Ví chính)
+
+Thực hiện nhiều WALLET_TASKS (1-nhiều)
+Tạo ra nhiều TRANSACTIONS (1-nhiều)
+Có thống kê trong WALLET_STATS (1-nhiều)
+Sử dụng 1 PROXY (nhiều-1)
+
+🟠 TASKS (Nhiệm vụ)
+
+Được gán cho nhiều WALLET_TASKS (1-nhiều)
+Sinh ra TRANSACTIONS khi thực hiện (1-nhiều)
+
+🎯 Workflow hoạt động:
+
+User tạo tài khoản → Thêm nhiều Wallets
+User thêm Proxies → Gán cho từng wallet
+Admin tạo Projects → Thêm Tasks cho project
+User khởi tạo Farming Session → Chọn project + wallets
+Hệ thống tự động:
+
+Tạo Wallet_Tasks cho mỗi ví
+Thực hiện tasks → Lưu Transactions
+Cập nhật Wallet_Stats
+Gửi Notifications khi hoàn thành/lỗi
+
+Thêm các bảng khác:
+1. Referral System (Hệ thống giới thiệu)
+Các dự án thường có cơ chế tăng điểm qua team và referral code Aster Airdrop Farming: Elon Musk’s AI Shows 5 Best Strategies, cần tracking:
+
+Referral codes của user
+Ai giới thiệu ai
+Điểm thưởng từ referral
+Team/Guild system
+
+2. Social Tasks (Nhiệm vụ mạng xã hội)
+Farmer thường phải hoàn thành các tác vụ như tham gia kênh cộng đồng, theo dõi social media What is Airdrop Farming and How to Farm Airdrops in 2025:
+
+Twitter/X accounts liên kết với ví
+Discord accounts
+Telegram accounts
+Social engagement tracking
+
+3. Points & Rewards System
+Nhiều dự án dùng hệ thống điểm phức tạp, ví dụ Aster dùng "Rh points" dựa trên volume, thời gian hold, PnL Aster Airdrop Farming: Elon Musk’s AI Shows 5 Best Strategies:
+
+Multi-tiered points (trading points, holding points, loyalty points)
+Points history/changelog
+Leaderboard rankings
+
+4. Liquidity Providing & Staking
+Staking crypto và cung cấp thanh khoản cho liquidity pools là các phương pháp farming phổ biến What is Airdrop Farming? How to Farm Airdrops in 2025:
+
+LP positions tracking
+Staking positions
+Yield earned
+Impermanent loss tracking
+
+5. Multi-Wallet Coordination
+Farmer có kinh nghiệm thường quản lý nhiều ví để tối đa hóa lợi nhuận 2025 Guide to Airdrop Farming: How to Farm Airdrops Securely | AdsPower:
+
+Wallet groups/batches
+Automation schedules
+Batch operations tracking
+
+6. Anti-Sybil Detection Tracking
+Các hệ thống phát hiện Sybil ngày càng tinh vi, sử dụng subgraph và graph-based systems để phát hiện các ví liên kết Airdrop Farming 2025: Strategy, Metrics & Regulatory Outlook:
+
+Wallet interaction patterns
+Risk scores
+Flagged wallets
+
+7. Gas & Cost Tracking
+
+Gas costs per transaction
+ROI calculations
+Break-even analysis
+
+8. Token Claims & Distribution
+
+Claim schedules
+Vesting periods
+Distribution history
+
+9. Testnet Participation
+Tham gia testnet đã chứng minh là một trong những chiến lược sinh lời nhất Ultimate Cryptocurrency Airdrop Farming Guide 2025 | Complete Tutorial:
+
+Testnet vs Mainnet tracking
+Testnet task completion
+
+10. Compliance & Tax
+Ở nhiều khu vực pháp lý bao gồm Mỹ, token airdrop được coi là thu nhập chịu thuế ngay khi nhận Airdrop Farming 2025: Strategy, Metrics & Regulatory Outlook:
+
+Tax reporting data
+KYC/AML compliance
